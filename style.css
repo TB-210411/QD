@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(pink,lightblue);
+}
+h1{
+    color:purple;
+    font-family: fantasy;
+    margin-left: 130px !important;
+    font-weight: bold;
+    
+}
+#show_sketch{
+    float:right;
+    margin-right: 20px;
+    font-size: 17px;
+}
+p{
+    padding-top: 10px;
+font-size: 22px;
+color: purple;
+}
+canvas{
+    border: 5px dashed darkslateblue;
+    border-radius: 20px;
+    margin-top: 90px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 2px 2px 35px purple;}
+    to{box-shadow: 2px 2px 35px rgb(221, 79, 103);}
+}
+#score{
+    float:left;
+    font-size: 22px;
+    margin-left: 18px;
+    color: purple;
+}
+#timer{
+    float:right;
+    font-size: 22px;
+    margin-right: 18px;
+    color: purple;
+}
